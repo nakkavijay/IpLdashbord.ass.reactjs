@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 40%;
+  border: 1px #ffffff solid;
+  border-radius: 16px;
+  margin: 6px;
+  flex-shrink: 1;
+}
+.image {
+  min-width: 55px;
+}
+.name {
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+
+  font-family: bree serif;
+}
+.link {
+  font-size: 25px;
+}

@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.match-card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin: 2px;
+}
+.image {
+  width: 50px;
+}

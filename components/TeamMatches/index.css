@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+.banner {
+  width: auto;
+}
+.name {
+  font-size: 25px;
+  color: white;
+  align-self: flex-start;
+  margin-left: 200px;
+}
+.match-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
